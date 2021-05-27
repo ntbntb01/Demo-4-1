@@ -61,7 +61,7 @@ export default function CartScreen() {
               </View>
             </View>
             <TouchableOpacity onPress={onRemoveItem(item)}>
-              <Ionicons name="ios-trash-outline" size={30} color={'black'} />
+              <Text>Delete</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -103,4 +103,4 @@ const styles = StyleSheet.create({
     zIndex: 1
   },
 
-});
+})
